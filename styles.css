@@ -226,13 +226,6 @@ nav ul li {
     background-color: #0056b3; /* Cambia el color de fondo al pasar el ratón */
 }
 
-/* Responsividad para pantallas medianas (tablets) */
-@media (max-width: 1024px) {
-    .galeria {
-        grid-template-columns: repeat(2, 1fr);  /* Dos columnas en tablets */
-    }
-}
-
 /* Responsividad para pantallas pequeñas (móviles) */
 @media (max-width: 768px) {
     .galeria {
@@ -263,22 +256,34 @@ nav ul li {
 
     /* Ajustamos el tamaño del logo en todas las páginas para móviles */
     .logo {
-        max-width: 150px; /* Mismo tamaño que en la página de contacto */
+        max-width: 100%; /* Ocupa el ancho completo de la pantalla */
+        width: 100%; /* Asegura que el logo ocupe todo el ancho */
+        padding: 0 20px; /* Pequeño padding a los lados */
+        box-sizing: border-box; /* Incluye el padding en el ancho total */
     }
 
     /* Forzar el mismo tamaño en proyectos */
     .proyectos .logo {
-        max-width: 80px; /* Mismo tamaño que en la página de contacto */
+        max-width: 100%; /* Ocupa el ancho completo de la pantalla */
+        width: 100%; /* Asegura que el logo ocupe todo el ancho */
+        padding: 0 20px; /* Pequeño padding a los lados */
+        box-sizing: border-box; /* Incluye el padding en el ancho total */
     }
 
     /* Forzar el mismo tamaño en inicio */
     .inicio .logo {
-        max-width: 80px; /* Mismo tamaño que en la página de contacto */
+        max-width: 100%; /* Ocupa el ancho completo de la pantalla */
+        width: 100%; /* Asegura que el logo ocupe todo el ancho */
+        padding: 0 20px; /* Pequeño padding a los lados */
+        box-sizing: border-box; /* Incluye el padding en el ancho total */
     }
 
     /* Forzar el mismo tamaño en contacto */
     .logo.contacto {
-        max-width: 80px; /* Mismo tamaño que en la página de contacto */
+        max-width: 100%; /* Ocupa el ancho completo de la pantalla */
+        width: 100%; /* Asegura que el logo ocupe todo el ancho */
+        padding: 0 20px; /* Pequeño padding a los lados */
+        box-sizing: border-box; /* Incluye el padding en el ancho total */
     }
 
     header {
@@ -323,21 +328,33 @@ nav ul li {
 
     /* Ajustamos el tamaño del logo en todas las páginas para móviles */
     .logo {
-        max-width: 80px; /* Mismo tamaño que en la página de contacto */
+        max-width: 100%; /* Ocupa el ancho completo de la pantalla */
+        width: 100%; /* Asegura que el logo ocupe todo el ancho */
+        padding: 0 20px; /* Pequeño padding a los lados */
+        box-sizing: border-box; /* Incluye el padding en el ancho total */
     }
 
     /* Forzar el mismo tamaño en proyectos */
     .proyectos .logo {
-        max-width: 80px; /* Mismo tamaño que en la página de contacto */
+        max-width: 100%; /* Ocupa el ancho completo de la pantalla */
+        width: 100%; /* Asegura que el logo ocupe todo el ancho */
+        padding: 0 20px; /* Pequeño padding a los lados */
+        box-sizing: border-box; /* Incluye el padding en el ancho total */
     }
 
     /* Forzar el mismo tamaño en inicio */
     .inicio .logo {
-        max-width: 80px; /* Mismo tamaño que en la página de contacto */
+        max-width: 100%; /* Ocupa el ancho completo de la pantalla */
+        width: 100%; /* Asegura que el logo ocupe todo el ancho */
+        padding: 0 20px; /* Pequeño padding a los lados */
+        box-sizing: border-box; /* Incluye el padding en el ancho total */
     }
 
     /* Forzar el mismo tamaño en contacto */
     .logo.contacto {
-        max-width: 80px; /* Mismo tamaño que en la página de contacto */
+        max-width: 100%; /* Ocupa el ancho completo de la pantalla */
+        width: 100%; /* Asegura que el logo ocupe todo el ancho */
+        padding: 0 20px; /* Pequeño padding a los lados */
+        box-sizing: border-box; /* Incluye el padding en el ancho total */
     }
 }
