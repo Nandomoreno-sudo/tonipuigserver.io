@@ -284,12 +284,12 @@ nav ul li {
     }
 
     /* En dispositivos móviles, el logo en proyectos debe tener el mismo tamaño que en contacto */
-    .logo.proyectos {
-        max-width: 60px; /* Ajustamos el tamaño del logo en proyectos */
+    .proyectos .logo {
+        max-width: 80px; /* Ajustamos el tamaño del logo en proyectos */
     }
 
     .logo.contacto {
-        max-width: 60px; /* Ajustamos el tamaño del logo en contacto */
+        max-width: 80px; /* Ajustamos el tamaño del logo en contacto */
     }
 
     nav ul {
@@ -314,11 +314,11 @@ nav ul li {
         font-size: 12px; /* Reducimos el tamaño de la fuente */
     }
 
-    .logo.proyectos {
-        max-width: 50px; /* Reducimos el tamaño del logo */
+    .proyectos .logo {
+        max-width: 80px; /* Reducimos el tamaño del logo */
     }
 
     .logo.contacto {
-        max-width: 50px; /* Reducimos aún más el tamaño del logo */
+        max-width: 80px; /* Reducimos aún más el tamaño del logo */
     }
 }
