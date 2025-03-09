@@ -266,6 +266,14 @@ nav ul li {
         max-width: 80px; /* Mismo tamaño que en la página de contacto */
     }
 
+    .proyectos .logo {
+        max-width: 80px; /* Forzar el mismo tamaño en proyectos */
+    }
+
+    .logo.contacto {
+        max-width: 80px; /* Forzar el mismo tamaño en contacto */
+    }
+
     header {
         padding: 10px 0 0 10px; /* Reducimos el padding para móviles */
     }
@@ -309,5 +317,13 @@ nav ul li {
     /* Ajustamos el tamaño del logo en todas las páginas para móviles */
     .logo {
         max-width: 80px; /* Mismo tamaño que en la página de contacto */
+    }
+
+    .proyectos .logo {
+        max-width: 80px; /* Forzar el mismo tamaño en proyectos */
+    }
+
+    .logo.contacto {
+        max-width: 80px; /* Forzar el mismo tamaño en contacto */
     }
 }
