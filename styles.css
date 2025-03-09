@@ -96,9 +96,9 @@ nav ul li {
     margin-bottom: 20px; /* Espaciado inferior */
 }
 
-/* Logo solo en la página de contacto */
+/* Logo en la página de contacto (pantallas grandes) */
 .logo.contacto {
-    max-width: 80px; /* Limita el tamaño del logo en la página de contacto */
+    max-width: 850px; /* Mismo tamaño que en inicio y proyectos */
     width: auto;
     margin: 0 auto 20px; /* Centra el logo y agrega espacio inferior */
     display: block;
@@ -276,6 +276,11 @@ nav ul li {
         max-width: 80px; /* Mismo tamaño que en la página de contacto */
     }
 
+    /* Forzar el mismo tamaño en contacto */
+    .logo.contacto {
+        max-width: 80px; /* Mismo tamaño que en la página de contacto */
+    }
+
     header {
         padding: 10px 0 0 10px; /* Reducimos el padding para móviles */
     }
@@ -328,6 +333,11 @@ nav ul li {
 
     /* Forzar el mismo tamaño en inicio */
     .inicio .logo {
+        max-width: 80px; /* Mismo tamaño que en la página de contacto */
+    }
+
+    /* Forzar el mismo tamaño en contacto */
+    .logo.contacto {
         max-width: 80px; /* Mismo tamaño que en la página de contacto */
     }
 }
