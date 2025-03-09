@@ -261,8 +261,9 @@ nav ul li {
         width: 90%; /* Limita el ancho */
     }
 
+    /* Ajustamos el tamaño del logo en todas las páginas para móviles */
     .logo {
-        max-width: 80%; /* Limita el tamaño del logo */
+        max-width: 80px; /* Mismo tamaño que en la página de contacto */
     }
 
     header {
@@ -281,15 +282,6 @@ nav ul li {
     .boton {
         padding: 8px 15px; /* Reducimos el padding para móviles */
         font-size: 14px; /* Reducimos el tamaño de la fuente */
-    }
-
-    /* En dispositivos móviles, el logo en proyectos debe tener el mismo tamaño que en contacto */
-    .proyectos .logo {
-        max-width: 80px; /* Ajustamos el tamaño del logo en proyectos */
-    }
-
-    .logo.contacto {
-        max-width: 80px; /* Ajustamos el tamaño del logo en contacto */
     }
 
     nav ul {
@@ -314,11 +306,8 @@ nav ul li {
         font-size: 12px; /* Reducimos el tamaño de la fuente */
     }
 
-    .proyectos .logo {
-        max-width: 80px; /* Reducimos el tamaño del logo */
-    }
-
-    .logo.contacto {
-        max-width: 80px; /* Reducimos aún más el tamaño del logo */
+    /* Ajustamos el tamaño del logo en todas las páginas para móviles */
+    .logo {
+        max-width: 80px; /* Mismo tamaño que en la página de contacto */
     }
 }
