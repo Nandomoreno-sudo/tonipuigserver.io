@@ -303,7 +303,9 @@ nav ul li {
         padding: 6px 12px; /* Reducimos el padding para móviles */
         font-size: 12px; /* Reducimos el tamaño de la fuente para móviles */
     }
-
+    .logo.proyectos {
+        max-width: 50px; /* Reducimos el tamaño del logo para móviles */
+    }
     .logo.contacto {
         max-width: 50px; /* Reducimos aún más el tamaño del logo para móviles */
     }
