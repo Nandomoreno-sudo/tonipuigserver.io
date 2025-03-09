@@ -23,22 +23,22 @@ header {
 
 nav {
     display: flex;
-    justify-content: flex-start; /* Alinea el contenido a la izquierda */
-    width: auto; /* Ancho automático para que no ocupe el 100% */
-    padding: 10px; /* Espaciado interno del nav */
-    margin: 0 0 0 20px; /* Margen izquierdo para separar del borde */
+    justify-content: center; /* Centra los elementos en el nav */
+    width: auto;
+    padding: 10px;
+    margin: 0;
 }
 
 nav ul {
     list-style-type: none;
     display: flex;
-    justify-content: flex-start; /* Alinea los elementos a la izquierda */
+    justify-content: center; /* Centra los elementos dentro de la lista */
     padding: 0;
     margin: 0;
 }
 
 nav ul li {
-    margin: 0 15px; /* Espaciado entre elementos del menú */
+    margin: 0 15px; /* Espaciado entre los elementos del menú */
 }
 
 .boton {
@@ -181,7 +181,7 @@ nav ul li {
     background-attachment: fixed;
     background-color: rgba(0, 0, 0, 0.5);
     padding: 40px;
-    padding-top: 100px;
+    padding-top: 150px;
     height: 100vh;
     border-radius: 15px;
     max-width: 1000px;
