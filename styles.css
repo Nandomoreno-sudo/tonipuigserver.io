@@ -1,0 +1,308 @@
+/* General */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%; /* Asegura que el body ocupe el 100% de la pantalla */
+}
+
+/* Barra de navegación */
+header {
+    background-color: rgba(0, 0, 0, 0);
+    padding: 20px 0 0 20px; /* Separación superior y izquierda */
+    margin: 0;  /* Elimina cualquier margen */
+    position: absolute; /* Pone el header sobre la imagen */
+    top: 0;
+    left: 0; /* Alinea el header a la izquierda */
+    width: 100%;
+    z-index: 2;  /* Hace que la barra de navegación quede por encima de la imagen */
+}
+
+nav {
+    display: flex;
+    justify-content: flex-start; /* Alinea el contenido a la izquierda */
+    width: auto; /* Ancho automático para que no ocupe el 100% */
+    padding: 10px; /* Espaciado interno del nav */
+    margin: 0 0 0 20px; /* Margen izquierdo para separar del borde */
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start; /* Alinea los elementos a la izquierda */
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px; /* Espaciado entre elementos del menú */
+}
+
+.boton {
+    text-decoration: none;
+    padding: 10px 20px; /* Ajusta el padding del botón */
+    font-size: 16px; /* Ajusta el tamaño de la fuente */
+    background-color: #4b94dd;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.boton:hover {
+    background-color: #0056b3;
+}
+
+/* Sección principal con fondo */
+.inicio {
+    background: url('images/fondo2.jpg') no-repeat center center/cover;
+    background-size: cover; /* Asegura que cubra toda el área */
+    background-position: center; /* Centra la imagen */
+    background-attachment: fixed; /* Hace que la imagen permanezca fija al hacer scroll */
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente para el formulario */
+    color: rgb(11, 11, 11);
+    min-height: 100vh;  /* Usamos min-height para mayor flexibilidad */
+    padding-top: 100px; /* Elimina el espacio adicional que pudiera haber en la parte superior */
+    text-align: center;
+}
+
+.inicio .contenido {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.inicio .contenido2 {
+    max-width: 1000px;
+    font-size: 1.2em; /* Tamaño general de texto dentro de .contenido2 */
+    margin: 0 auto;
+    padding-top: 50px;
+    background-color: rgba(0, 0, 0, 0.5);  /* Fondo semi-transparente */
+    border-radius: 15px;  /* Bordes redondeados de la caja */
+    padding: 60px;  /* Aumentamos el espaciado dentro de la caja */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);  /* Sombra para darle profundidad */
+}
+
+/* Logo en general */
+.logo {
+    display: block;
+    margin: 0 auto;
+    max-width: 850px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* Logo solo en la página de contacto */
+.logo.contacto {
+    max-width: 80px;
+    width: auto;
+    margin: 0 auto 20px;
+    display: block;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.inicio h1 {
+    font-size: 3em;
+    color: white;
+    margin-top: 20px;
+}
+
+.inicio p {
+    font-size: 2em;
+    color: white;
+    margin-top: 10px;
+}
+
+/* Galería de proyectos */
+.proyectos {
+    padding: 50px 20px;
+    text-align: center;
+    padding-top: 50px;
+}
+.proyectos .logo {
+    max-width: 900px; /* Ajusta el tamaño según sea necesario */
+    height: auto;
+    margin: 0 auto 20px; /* Centra el logo y añade un margen inferior */
+    display: block;
+}
+
+.proyectos h2 {
+    font-size: 3em;
+    margin-bottom: 30px;
+}
+
+/* Caja para el título "Obras Realizadas" */
+.titulo-caja {
+    background-color: #007bff; 
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+
+/* Estilo de la galería de proyectos */
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);  /* Tres columnas por defecto en pantallas grandes */
+    gap: 20px;
+}
+
+.proyecto img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.proyecto p {
+    margin-top: 10px;
+}
+
+/* Formulario de contacto */
+.contacto {
+    background: url('images/fondo9.jpeg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0; 
+}
+
+.formulario-contenedor {
+    background-image: url('images/fondo9.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 40px;
+    padding-top: 100px;
+    height: 100vh;
+    border-radius: 15px;
+    max-width: 1000px;
+    width: 100%;
+    color: #007BFF;
+    text-align: center;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contacto form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contacto label {
+    font-size: 1.2em;
+}
+
+.contacto input,
+.contacto textarea {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contacto button {
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contacto button:hover {
+    background-color: #0056b3;
+}
+
+/* Responsividad para pantallas medianas (tablets) */
+@media (max-width: 1024px) {
+    .galeria {
+        grid-template-columns: repeat(2, 1fr);  /* Dos columnas en tablets */
+    }
+}
+
+/* Responsividad para pantallas pequeñas (móviles) */
+@media (max-width: 768px) {
+    .galeria {
+        grid-template-columns: 1fr;  /* Una columna en móviles */
+    }
+
+    .proyectos h2 {
+        font-size: 2.5em;
+    }
+
+    .inicio {
+        padding-top: 100px;  /* Ajustamos el padding superior */
+        background-attachment: scroll;  /* Desactivamos 'fixed' en móviles */
+    }
+
+    .inicio h1 {
+        font-size: 2.5em;
+    }
+
+    .inicio p {
+        font-size: 1.5em;
+    }
+
+    .inicio .contenido {
+        padding: 20px;
+        width: 90%;
+    }
+
+    .logo {
+        max-width: 80%;
+    }
+
+    header {
+        padding: 10px 0 0 10px; /* Reducimos el padding para móviles */
+    }
+
+    nav {
+        padding: 5px; /* Reducimos el padding para móviles */
+        margin: 0 0 0 10px; /* Reducimos el margen para móviles */
+    }
+
+    nav ul li {
+        margin: 0 10px; /* Reducimos el margen entre botones */
+    }
+
+    .boton {
+        padding: 8px 15px; /* Reducimos el padding para móviles */
+        font-size: 14px; /* Reducimos el tamaño de la fuente para móviles */
+    }
+
+    .logo.contacto {
+        max-width: 60px; /* Reducimos el tamaño del logo para móviles */
+    }
+}
+
+/* Estilos para pantallas más pequeñas (móviles) */
+@media (max-width: 480px) {
+    nav ul {
+        flex-direction: row; /* Mantenemos los botones en fila */
+    }
+
+    nav ul li {
+        margin: 5px; /* Reducimos el margen entre botones */
+    }
+
+    .boton {
+        padding: 6px 12px; /* Reducimos el padding para móviles */
+        font-size: 12px; /* Reducimos el tamaño de la fuente para móviles */
+    }
+
+    .logo.contacto {
+        max-width: 50px; /* Reducimos aún más el tamaño del logo para móviles */
+    }
+}
