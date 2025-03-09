@@ -287,12 +287,18 @@ nav ul li {
     .logo.contacto {
         max-width: 60px; /* Reducimos el tamaño del logo para móviles */
     }
+
+    nav ul {
+        flex-direction: row; /* Alinea los elementos del menú en fila */
+        justify-content: center; /* Centra los elementos dentro de la lista */
+    }
 }
 
 /* Estilos para pantallas más pequeñas (móviles) */
 @media (max-width: 480px) {
     nav ul {
         flex-direction: row; /* Mantenemos los botones en fila */
+        justify-content: center; /* Asegura que los botones se centren */
     }
 
     nav ul li {
