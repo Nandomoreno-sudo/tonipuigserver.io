@@ -263,7 +263,7 @@ nav ul li {
 
     /* Ajustamos el tamaño del logo en todas las páginas para móviles */
     .logo {
-        max-width: 80px; /* Mismo tamaño que en la página de contacto */
+        max-width: 150px; /* Mismo tamaño que en la página de contacto */
     }
 
     /* Forzar el mismo tamaño en proyectos */
